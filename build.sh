@@ -2,6 +2,7 @@
 read -sp 'timemachine user password: ' password1
 echo
 read -sp 'Repeat timemachine user password: ' password2
+echo
 
 if [[ "${password1}" != "${password2}" ]]; then
   echo "Passwords don't match"
